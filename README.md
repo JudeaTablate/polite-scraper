@@ -44,7 +44,13 @@ This adds one intentionally nonexistent product URL. The run should finish, pres
 
 - `output/books.json`: schema-validated records only.
 - `output/errors.json`: failed/invalid pages and the reason.
-- `output/run-report.json`: timestamps, duration, fetch/cache counts, valid/invalid counts, and failed-page count.
+- `output/run-report.json`: test_missing_description_can_be_null (test_helpers.ScraperHelperTests.test_missing_description_can_be_null) ... ok
+test_price_normalization (test_helpers.ScraperHelperTests.test_price_normalization) ... ok
+test_rejects_non_https_product_url (test_helpers.ScraperHelperTests.test_rejects_non_https_product_url) ... ok
+
+Ran 3 tests in 0.003s
+
+OK
 - `cache/`: local HTML cache; excluded from Git.
 
 ## Record schema
