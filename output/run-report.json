@@ -1,0 +1,17 @@
+{
+  "started_at": "2026-10-18T10:30:16Z",
+  "finished_at": "2026-10-18T10:30:17Z",
+  "duration_seconds": 0.58,
+  "catalogue_pages_target": 3,
+  "discovered_unique_urls": 60,
+  "pages_fetched": 0,
+  "cache_hits": 63,
+  "valid_records": 60,
+  "invalid_records": 0,
+  "failed_pages": 0,
+  "outputs": {
+    "books": "output/books.json",
+    "errors": "output/errors.json",
+    "report": "output/run-report.json"
+  }
+}
